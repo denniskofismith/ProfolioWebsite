@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/';
+// import CV from '../../assets/';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -55,7 +55,7 @@ function Hero() {
         <p className={styles.description}>
         With a passion for building scalable Django backends and APIs for web and mobile applications.
         </p>
-        <a href={CV} download>
+        <a download>
           <button className="hover">Resume</button>
         </a>
       </div>
